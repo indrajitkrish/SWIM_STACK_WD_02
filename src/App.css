@@ -3,13 +3,13 @@
 }
 .main-div{
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
   width:30%;  
   border: 2px solid;
   border-image:   linear-gradient(to right, #FF8E00 25%, #FFE400 25%, #FF1700 25%,#06FF00 25%)4;
   border-radius: 10px;
   padding-bottom: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 header{
   text-align: center;
@@ -49,4 +49,9 @@ button:hover{
 .loser{
   color: #FF1700;
   font-weight: bold;
+}
+.reset-btn{
+  margin-top: 10px;
+  color:#06FF00;
+  font-size: larger;
 }

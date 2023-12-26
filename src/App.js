@@ -17,6 +17,11 @@ function App() {
 
           setCurrentQuestion(currentQuestion+1);
   }
+
+  function handleReset(){
+    setCurrentQuestion(0);
+    setScore(0);
+  }
   return (
     <div className="App">
       <Navigation />
@@ -39,10 +44,11 @@ function App() {
            <h1 className='submit-h1'>Quiz Completed</h1>
            <p>Your Score is : <span className='score'>{score}</span></p>
            {score >= 4 ?<> <h3 className='winner'>Winner!</h3>
-           <img src={win} alt="win" />
+           <img width="80%" src={win} alt="win" />
            </> :<> <h3 className='loser'>Better luck next time </h3>
-           <img src={lose} alt="looser" />
+           <img width="80%" src={lose} alt="looser" />
            </>}
+           <button className='reset-btn' onClick={()=>handleReset()}>Reset</button>
         </>
       ) 
     }
