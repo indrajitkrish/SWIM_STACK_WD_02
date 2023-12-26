@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+.main-div{
+  margin: auto;
+  margin-top: 10%;
+  width:30%;  
+  border: 2px solid;
+  border-image:   linear-gradient(to right, #FF8E00 25%, #FFE400 25%, #FF1700 25%,#06FF00 25%)4;
+  border-radius: 10px;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+header{
+  text-align: center;
+  padding: 10px 0;
+  background-color: #FF8E00;
+}
+.head-title{
+  color: #FFE400;
+}
+.ques{
+  color: #FF1700;
+  margin-bottom: 50px;
+}
+.option{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+button{
+  padding: 5px;
+  width:50%;
+}
+button:hover{
+  color: #FF8E00;
+}
+.submit-h1{
+  color: #FF1700;
+}
+.score{
+  color: #06FF00;
+}
+.winner{
+  color: #FFE400;
+  font-weight: bold;
+}
+.loser{
+  color: #FF1700;
+  font-weight: bold;
+}
